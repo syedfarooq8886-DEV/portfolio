@@ -1,0 +1,304 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Syed Mohammad Farooq | Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background:#f4f6f9;
+    color:#333;
+}
+
+header{
+    background:linear-gradient(135deg,#0f172a,#1e293b);
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+header img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    border:5px solid white;
+    object-fit:cover;
+    margin-bottom:15px;
+}
+
+header h1{
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:20px;
+}
+
+nav{
+    background:#111827;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#38bdf8;
+}
+
+section{
+    max-width:1100px;
+    margin:auto;
+    padding:50px 20px;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:30px;
+    color:#0f172a;
+}
+
+.about p{
+    text-align:center;
+    font-size:18px;
+    line-height:1.8;
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+}
+
+.skill{
+    background:#0f172a;
+    color:white;
+    padding:12px 20px;
+    border-radius:25px;
+}
+
+.education{
+    text-align:center;
+    font-size:18px;
+    line-height:2;
+}
+
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:20px;
+}
+
+.project-card{
+    background:white;
+    border-radius:10px;
+    padding:20px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+.project-card h3{
+    margin-bottom:10px;
+    color:#0f172a;
+}
+
+.certifications ul{
+    list-style:none;
+    text-align:center;
+}
+
+.certifications li{
+    padding:10px;
+}
+
+.resume{
+    text-align:center;
+}
+
+.resume a{
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    padding:12px 25px;
+    border-radius:6px;
+    font-weight:bold;
+}
+
+.resume a:hover{
+    background:#1d4ed8;
+}
+
+.contact{
+    text-align:center;
+    line-height:2;
+    font-size:18px;
+}
+
+.contact a{
+    color:#2563eb;
+    text-decoration:none;
+}
+
+footer{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <img src="profile.jpg" alt="Syed Mohammad Farooq">
+    <h1>Syed Mohammad Farooq</h1>
+    <p>Final Year CSE Student | Aspiring Software Developer</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+        Hello! I'm <strong>Syed Mohammad Farooq</strong>, a Final Year
+        Computer Science Engineering student at
+        <strong>Sri Sai Institute of Technology and Science</strong>.
+        I am passionate about Web Development, Cloud Computing,
+        Machine Learning, and Software Development.
+        I enjoy building innovative solutions, learning new technologies,
+        and solving real-world problems through technology.
+    </p>
+</section>
+
+<section id="education" class="education">
+    <h2>Education</h2>
+    <p><strong>B.Tech - Computer Science Engineering</strong></p>
+    <p>Sri Sai Institute of Technology and Science</p>
+    <p>Current Year: 4th Year</p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+
+    <div class="skills">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Python</div>
+        <div class="skill">Java</div>
+        <div class="skill">Machine Learning</div>
+        <div class="skill">Cloud Computing</div>
+        <div class="skill">GitHub</div>
+        <div class="skill">Problem Solving</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="projects">
+
+        <div class="project-card">
+            <h3>Personal Portfolio Website</h3>
+            <p>
+                Developed a responsive personal portfolio website using
+                HTML and CSS to showcase skills, projects,
+                certifications, and achievements.
+            </p>
+        </div>
+
+        <div class="project-card">
+            <h3>Student Management System</h3>
+            <p>
+                Designed a student management application to manage
+                student records efficiently.
+            </p>
+        </div>
+
+        <div class="project-card">
+            <h3>Machine Learning Projects</h3>
+            <p>
+                Built machine learning models for prediction and
+                data analysis using Python.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="certifications" class="certifications">
+    <h2>Certifications</h2>
+
+    <ul>
+        <li>Google Developer Group Program Completion Certificate</li>
+        <li>NPTEL Machine Learning</li>
+        <li>NPTEL Cloud Computing</li>
+        <li>Google Arcade Program Participation</li>
+    </ul>
+</section>
+
+<section id="resume" class="resume">
+    <h2>Resume</h2>
+
+    <a href="resume.pdf" download>
+        Download Resume
+    </a>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Information</h2>
+
+    <p>Email: syedfarooq6866@gmail.com</p>
+
+    <p>Phone: +91 8886098937</p>
+
+    <p>
+        LinkedIn:
+        <a href="https://www.linkedin.com/in/syed-mohammad-farooq-2a1335296" target="_blank">
+            View Profile
+        </a>
+    </p>
+
+    <p>
+        GitHub:
+        <a href="https://github.com/syedfarooq8886-DEV" target="_blank">
+            View Profile
+        </a>
+    </p>
+</section>
+
+<footer>
+    <p>
+        © 2026 Syed Mohammad Farooq. All Rights Reserved.
+    </p>
+</footer>
+
+</body>
+</html>
+```
